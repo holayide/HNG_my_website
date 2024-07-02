@@ -8,7 +8,6 @@
   .inner-hero-page {
     grid-template-columns: 1fr;
     gap: 0.1rem;
-    padding-top: 4.8rem;
   }
 
   .hero-text-container > h2 {
@@ -53,7 +52,7 @@
     height: 100vh;
     position: absolute;
     top: 0;
-    left: 100vw;
+    left: 100%;
     background-color: var(--accent);
 
     display: flex;
@@ -120,11 +119,8 @@
   }
 
   .container {
-    padding: 0 2rem;
-  }
-
-  .inner-hero-page {
-    padding-top: 4.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .time-date-wrapper {

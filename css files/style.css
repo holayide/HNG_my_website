@@ -38,6 +38,8 @@ header {
   height: 9rem;
   background-color: var(--background-gray);
   padding-top: 2.5rem;
+
+  position: relative;
 }
 
 .inner-header-wrapper {
@@ -110,7 +112,7 @@ nav > ul li a:hover {
 }
 
 .inner-hero-page {
-  padding-top: 2.4rem;
+  padding-top: 7.8rem;
 }
 
 .hero-text-container {
