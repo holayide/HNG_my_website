@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A website showing my personal details and goals i would love to obtain in the next two years"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css files/style.css" />
+    <link rel="stylesheet" href="./css files/query.css" />
+
+    <title>My_Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="inner-header-wrapper container">
+        <div class="logo" data-testid="slackDisplayName">
+          h<span>orla</span>
+        </div>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#">Banner</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact </a></li>
+          </ul>
+          <div class="btn-mobile-nav close-menu">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </nav>
+        <div class="time-date-wrapper">
+          <div class="date" data-testid="currentDay"></div>
+          <span>&verbar;</span>
+          <div class="time" data-testid="currentTimeUTC"></div>
+        </div>
+
+        <div class="btn-mobile-nav open-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-page">
+        <div class="inner-hero-page container">
+          <img
+            src="./assets/flipola-sm.png"
+            alt="Profile picture"
+            data-testid="slackProfilePicture"
+          />
+
+          <div class="hero-text-container">
+            <h2>Hi, I'm Olaide</h2>
+            <p>web developer</p>
+            <hr />
+            <p>
+              I'm a web developer, focused on creating visually stunning and
+              functional websites by bringing design to life
+            </p>
+            <div class="text-icons">
+              <a
+                href="https://www.linkedin.com/in/olaide-alabi-89722b23a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://x.com/Holar_yide?s=09"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://wa.me/+2348176579175"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-page" id="about">
+        <div class="inner-about-page container">
+          <h3>ABOUT &nbsp; / &nbsp; MY_GOALS</h3>
+          <div class="about">
+            <h4>About</h4>
+            <p>
+              Hi there! I'm Olaide Alabi, a web developer passionate about
+              building beautiful and functional websites. I thrive on
+              transforming designs into seamless and engaging user experiences.
+              While I am still learning, I am dedicated to mastering modern web
+              technologies to create visually stunning and highly efficient web
+              applications. My goal is to deliver top-notch user-centric
+              solutions that not only meet but exceed client expectations. I am
+              committed to continuous learning and professional growth, always
+              seeking new challenges to refine my skills and stay at the
+              forefront of web development trends. Whether it's a small business
+              website or a complex web application, I am committed to bringing
+              innovative ideas to life and delivering exceptional results
+            </p>
+          </div>
+          <div class="my-goals">
+            <h4>My Goals in the next 2 years:</h4>
+            <ul>
+              <li>Advance to a mid-senior level web developer.</li>
+              <li>Deepen my expertise in modern web technologies.</li>
+              <li>Take on challenging and impactful projects.</li>
+              <li>
+                Continually refine my ability to create seamless and visually
+                stunning web experiences.
+              </li>
+              <li>
+                Commit to continuous learning and professional development.
+              </li>
+              <li>
+                Collaborate with other talented professionals in the industry.
+              </li>
+              <li>
+                Work in an organization where I can learn and impact others.
+              </li>
+            </ul>
+          </div>
+
+          <div class="other_links">
+            <h4>Other Useful Links</h4>
+            <div class="links">
+              <a href="https://hng.tech/learn" data-testid="hngLink"
+                >HNG Learn</a
+              >
+              <a href="https://keyword.dog/" data-testid="keywordLink"
+                >keyword.dog</a
+              >
+              <a
+                href="https://scrapeanyweb.site/"
+                data-testid="scrapeanywebLink"
+                >scrapeanywebLink</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-us" id="contact">
+        <div class="inner-contact-page container">
+          <h3>CONTACT US</h3>
+          <h2>How To Contact Us</h2>
+          <p>
+            These are various ways I can be contacted. Open to intenship and
+            collaborations
+          </p>
+          <div class="contact_fields">
+            <div class="email" data-testid="slackEmail">
+              <a href="mailto: holaryidealabi@gmail"
+                ><i class="fa-solid fa-envelope"></i
+                ><span>holaryidealabi@gmail</span></a
+              >
+            </div>
+            <div class="phone">
+              <a href="tel:+2348176579175"
+                ><i class="fa-solid fa-phone"></i><span>+2348176579175</span></a
+              >
+            </div>
+            <div class="twitter">
+              <a href="https://x.com/Holar_yide?s=09"
+                ><i class="fa-brands fa-x-twitter"></i
+                ><span>holar_yide</span></a
+              >
+            </div>
+          </div>
+
+          <div class="top-page">
+            <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-page">
+      Copyright &copy; <span class="year"></span> by Olaide Alabi.
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
